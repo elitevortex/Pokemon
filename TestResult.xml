@@ -1,0 +1,106 @@
+<testsuite errors="6" failures="0" name="" tests="6" time="0.001">
+<testcase classname="unittest.loader._FailedTest" name="test_battle" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_battle
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_battle.py", line 2, in &lt;module>
+    from battle import Battle
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\battle.py", line 6, in &lt;module>
+    from poke_team import Action, PokeTeam, Criterion
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\poke_team.py", line 8, in &lt;module>
+    from pokemon_base import PokemonBase
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+<testcase classname="unittest.loader._FailedTest" name="test_poke_team" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_poke_team
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_poke_team.py", line 1, in &lt;module>
+    from poke_team import Action, Criterion, PokeTeam
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\poke_team.py", line 8, in &lt;module>
+    from pokemon_base import PokemonBase
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+<testcase classname="unittest.loader._FailedTest" name="test_pokemon" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_pokemon
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_pokemon.py", line 1, in &lt;module>
+    from pokemon import Venusaur
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon.py", line 7, in &lt;module>
+    from pokemon_base import PokemonBase
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+<testcase classname="unittest.loader._FailedTest" name="test_pokemon_base" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_pokemon_base
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_pokemon_base.py", line 2, in &lt;module>
+    from pokemon_base import PokemonBase, PokeType
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+<testcase classname="unittest.loader._FailedTest" name="test_tournament" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_tournament
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_tournament.py", line 2, in &lt;module>
+    from tournament import Tournament
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tournament.py", line 7, in &lt;module>
+    from poke_team import PokeTeam
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\poke_team.py", line 8, in &lt;module>
+    from pokemon_base import PokemonBase
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+<testcase classname="unittest.loader._FailedTest" name="test_tower" time="0.000">
+<error type="ImportError">ImportError: Failed to import test module: test_tower
+Traceback (most recent call last):
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\viran\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "C:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\tests\test_tower.py", line 2, in &lt;module>
+    from poke_team import Criterion, PokeTeam
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\poke_team.py", line 8, in &lt;module>
+    from pokemon_base import PokemonBase
+  File "c:\Users\viran\OneDrive\Documents\GitHub\assignment-2-fit-1054\pokemon_base.py", line 7, in &lt;module>
+    class PokemonBase(ABC, Generic[T]):
+NameError: name 'ABC' is not defined
+
+</error>
+</testcase>
+</testsuite>
